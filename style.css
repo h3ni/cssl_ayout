@@ -1,0 +1,143 @@
+header {
+  padding: 0 150px;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  box-shadow: #1b2734;
+}
+header nav img {
+  width: 250px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 300px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 0.9375rem;
+  color: #ababab;
+  font-weight: 500;
+}
+header nav ul li .active {
+  color: #00b39b;
+}
+header nav ul li a:hover {
+  color: #00b39b;
+}
+header nav ul .department {
+  position: relative;
+}
+header nav ul li .dropdown {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  height: 180px;
+  width: 200px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px 0;
+}
+header nav ul .department:hover .dropdown {
+  display: flex;
+}
+header nav ul li .department li:hover {
+  background-color: aliceblue;
+}
+header nav ul .dropdown li a {
+  padding: 10px;
+}
+
+/*lead section*/
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  padding: 0 400px;
+}
+.lead h1 {
+  margin: 1em 0;
+  font-family: "Work Sans, Arial, sans-serif";
+  font-weight: 100;
+  letter-spacing: -0.3px;
+  color: #00b39b;
+  font-size: 35px;
+}
+#paragraph {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+  width: 100%;
+}
+#paragraph p {
+  width: 48%;
+  color: #747474;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 380px;
+}
+.card {
+  padding: 30px;
+}
+.card:first-child {
+  background: #00b39b;
+  width: 160px;
+  height: 285px;
+  border-radius: 10px;
+}
+.card:nth-child(2) {
+  background: #3d83df;
+  width: 160px;
+  height: 285px;
+  border-radius: 10px;
+}
+.card:last-child {
+  background: #1b2734;
+  width: 160px;
+  height: 285px;
+  border-radius: 10px;
+}
+.card p {
+  color: white;
+}
+.card h1 {
+  color: white;
+}
+.card select {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 2em 0 0;
+  -webkit-appearance: none;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
+.under {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 350px;
+  margin-top: 20px;
+}
+.under h1 {
+  border: red solid;
+  width: 250px;
+  margin: 1em 0;
+  font-family: "Work Sans, Arial, sans-serif";
+  font-weight: 100;
+  letter-spacing: -0.3px;
+  color: #00b39b;
+  font-size: 35px;
+}
